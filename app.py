@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Đường dẫn đến tệp CSV của bạn
-csv_file_path = 'D:/Data_Analysis/dataset.csv'
+csv_file_path = 'data_new.csv'
 
 # Tiêu đề của ứng dụng
 st.title("Điểm thi tốt nghiệp năm 2022 trên địa bàn thành phố Hà Nội")

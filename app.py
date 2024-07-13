@@ -2,7 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+<<<<<<< HEAD
 csv_file_path = 'D:/Data_Analysis/data_new.csv'
+=======
+# Đường dẫn đến tệp CSV của bạn
+csv_file_path = 'data_new.csv'
+>>>>>>> 8a9dc060a7b7fa832617f4181fb9a2aebda33f2c
 
 st.title("Điểm thi tốt nghiệp năm 2022 trên địa bàn thành phố Hà Nội")
 st.write("Lưu ý là số báo danh bắt đầu bằng 0 ví dụ số báo danh trong file csv hiển thi là 1000001 thì số báo danh thật thêm số 0 đằng trước thành 01000001")

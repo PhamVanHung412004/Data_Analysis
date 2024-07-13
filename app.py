@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 <<<<<<< HEAD
-csv_file_path = 'data_new.csv'
+# csv_file_path = 'data_new.csv'
 =======
 # Đường dẫn đến tệp CSV của bạn
 csv_file_path = 'data_new.csv'

@@ -25,7 +25,7 @@ st.write(df.describe())
 st.write("5 hàng đầu tiên:")
 st.write(df.head())
 
-path_calc_data = "D:/Data_Analysis/data1.csv"
+path_calc_data = "data1.csv"
 
 data = pd.read_csv(path_calc_data)
 
@@ -33,7 +33,7 @@ st.title("Biểu đồ cột")
 fig = px.bar(data, x='Môn thi', y='Số lượng thí sinh')
 st.plotly_chart(fig)
 
-path_data2 = "D:/Data_Analysis/data2.csv"
+path_data2 = "data2.csv"
 data1 = pd.read_csv(path_data2)
 
 # Tiêu đề của ứng dụng

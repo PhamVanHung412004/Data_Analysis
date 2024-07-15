@@ -25,8 +25,8 @@ st.write(df.head())
 
 st.title("Biểu đồ cột")
 
-file_path = "D:/Data_Analysis/dt1.csv"
-file_path1 = "D:/Data_Analysis/dt2.csv"
+file_path = "dt1.csv"
+file_path1 = "dt2.csv"
 
 dt1 = pd.read_csv(file_path)
 dt2 = pd.read_csv(file_path1)

@@ -6,7 +6,7 @@ import seaborn as sns
 
 subject = ["Toán","Ngữ Văn","Ngoại Ngữ","Vật Lý","Hóa Học","Sinh Học","Lịch Sử","Địa Lý","GDCD"]
 
-csv_file_path = 'D:/Data_Analysis/data_new_fix.csv'
+csv_file_path = 'data_new_fix.csv'
 st.title("Điểm thi tốt nghiệp năm 2022 trên địa bàn thành phố Hà Nội")
 st.write("Lưu ý là số báo danh bắt đầu bằng 0 ví dụ số báo danh trong file csv hiển thi là 1000001 thì số báo danh thật thêm số 0 đằng trước thành 01000001.")
 df = pd.read_csv(csv_file_path)
